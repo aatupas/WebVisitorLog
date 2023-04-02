@@ -3,6 +3,15 @@ Log your website visitor and get their location.
 -  Date & Time
 - Google Maps link to locate your visitor
 - Visitor user agent. Usually show their device information like OS, used device, browser type and version
+- No database needed. It will automatically create and save data to <u><i>log.txt</i></u>
+
+# Preview
+
+<pre>log.php</pre>
+<a href="https://ibb.co/0Xt8JWY"><img src="https://i.ibb.co/YWZYjKf/Screenshot-1.png" alt="Screenshot-1" border="0"></a>
+
+<pre>log.txt</pre>
+<a href="https://ibb.co/CBhJnkV"><img src="https://i.ibb.co/rk4bZC5/Screenshot-2.png" alt="Screenshot-2" border="0"></a>
 
 # Please note
 1. It will prompt location permission to visitor device
