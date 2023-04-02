@@ -1,6 +1,6 @@
 <?php
 // Inisialisasi variabel
-$random_number = rand(1, 10); // Membangkitkan angka acak antara 1 dan 10
+$random_number = rand(1, 10);
 $guesses = 0;
 $won = false;
 
