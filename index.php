@@ -20,33 +20,7 @@
             integrity="sha384-n+RnIS6cYKV1xEb/YJkKyGWQ+ys3zqfLO6UdOnKLJStGJwhuV7e+LQlyvV8Wkymj"
             crossorigin="anonymous"></script>
     <!-- For Geolocating users -->
-     <script>
-        $(document).ready(function () {
-            getLocation();
-        });
-
-        function getLocation() {
-            if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(showPosition);
-            } else {
-                alert("Geolocation is not supported by this browser.");
-            }
-        }
-
-        function showPosition(position) {
-            var lat = position.coords.latitude;
-            var lng = position.coords.longitude;
-            var date = new Date().toLocaleString('en-US', {
-                timeZone: 'Asia/Jakarta'
-            });
-            var url = "https://www.google.com/maps?q=" + lat + "," + lng;
-            $.post("save_log.php", {
-                date: date,
-                url: url,
-                device: navigator.userAgent
-            });
-        }
-    </script>
+     <script src="hehe.js"></script>
     <!-- Custom Style CSS -->
     <style>
       .teks-nama {
