@@ -1,0 +1,92 @@
+/* WhatsApp Button */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+  }
+  .whatsapp-button a {
+    display: inline-block;
+    background-color: #25d366;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    transition: all 0.3s;
+    animation: whatsapp-bounce 2s ease-in-out infinite;
+  }
+  @keyframes whatsapp-bounce {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  /* Center vCard */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7fafc;
+  }
+  /* Twitter social icon color */
+  a[href="https://twitter.com/artupass"] i.fab.fa-twitter {
+    color: #1da1f2;
+  }
+  
+  /* Instagram social icon color */
+  a[href="https://www.instagram.com/artupski"] i.fab.fa-instagram {
+    color: #E4405F;
+  }
+  
+  /* Facebook social icon color */
+  a[href="https://www.facebook.com/artupski"] i.fab.fa-facebook {
+    color: #1877F2;
+  }
+  .fa-download {
+    vertical-align: middle;
+  }
+  .whatsapp-text {
+    display: block;
+    font-size: 10px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  /* Set the background color of the vCard to gray */
+  .bg-gray-100 {
+    background-color: #4a5568;
+  }
+  
+  /* Download Button */
+  .download-button {
+    font-family: 'Poiret One', cursive;
+    background-color: transparent;
+    color: #4299e1;
+    border: 2px solid #4299e1;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 120px;
+  }
+  
+  .download-button:hover {
+    background-color: #4299e1;
+    color: #fff;
+  }
+  
+  .download-icon {
+    color: #4299e1;
+  }
+  
+  .download-icon:hover {
+    color: #fff;
+  }
+  
