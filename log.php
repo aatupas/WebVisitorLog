@@ -19,13 +19,13 @@
     <table class="table table-striped table-hover">
         <thead class="table-light">
         <tr>
-            <th>Tanggal</th>
-            <th>Maps</th>
+            <th>Date</th>
+            <th>Maps Link</th>
             <th>User Agent</th>
         </tr>
         </thead>
         <tbody class="table-group-divider">
-        <?php // untuk menampilkan data dari log.txt
+        <?php // for showing data from log.txt
         $file = "log.txt";
         $data = file_get_contents($file);
         $lines = explode("\n", $data);
